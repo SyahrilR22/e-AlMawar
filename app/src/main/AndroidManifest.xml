@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,13 @@
         android:splashScreenTheme="@style/Theme.App.Starting"
         android:supportsRtl="true"
         android:theme="@style/Theme.EAlMawar"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".SiswaFormulirDoneFragment"
+            android:exported="false" />
+        <activity
+            android:name=".SiswaBerhasilMendaftarFragment"
+            android:exported="false" />
         <activity
             android:name=".AdminAkunFragment"
             android:exported="false" />
@@ -45,7 +51,7 @@
             android:exported="false" />
         <activity
             android:name=".FlashscreenActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

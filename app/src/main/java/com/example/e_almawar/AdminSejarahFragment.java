@@ -10,27 +10,27 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-public class AdminHomeFragment extends Fragment {
+public class AdminSejarahFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_admin_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_admin_sejarah, container, false);
 
         // Ambil tombol Edit Sejarah dari XML
-        Button btnDaftarDatabase = view.findViewById(R.id.button_daftar_database);
+        Button btnEditSejarah = view.findViewById(R.id.btn_edit_sejarah);
 
         // Tambahkan event klik
-        btnDaftarDatabase.setOnClickListener(new View.OnClickListener() {
+        btnEditSejarah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openFragment(new AdminDatabasePendaftarFragment());
+                openFragment(new AdminEditSejarahFragment());
             }
         });
 
         return view;
     }
 
-    // Fungsi untuk membuka FragmentDatabasePendaftar
+    // Fungsi untuk membuka FragmentEditSejarah
     private void openFragment(Fragment fragment) {
         FragmentManager fragmentManager = getParentFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();

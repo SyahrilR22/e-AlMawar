@@ -54,7 +54,6 @@
                     android:layout_height="43dp"
                     android:layout_marginTop="24dp"
                     android:fontFamily="sans-serif-black"
-                    android:gravity="center"
                     android:text="Sekolah Islam Terpadu ALMAWAR Kolaka"
                     android:textAlignment="textStart"
                     android:textColor="@color/black"
@@ -71,7 +70,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/location_background"
-                    android:gravity="center"
                     android:padding="8dp"
                     android:text="  Jl.Pondok Pesantren No.10, Lakomato, Kec. Kolaka"
                     android:textAlignment="textStart"
@@ -114,7 +112,7 @@
                 app:srcCompat="@drawable/alur_pendaftaran" />
 
             <Button
-                android:id="@+id/button_daftar"
+                android:id="@+id/button_daftar_database"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"

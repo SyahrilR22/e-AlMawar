@@ -14,6 +14,33 @@
         android:theme="@style/Theme.EAlMawar"
         tools:targetApi="31">
         <activity
+            android:name=".AdminDatabasePendaftarFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditTujuanFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditVisimisiFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditSejarahFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEkstrakulikulerFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSarprasFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminVisimisiFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminTujuanFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSejarahFragment"
+            android:exported="false" />
+        <activity
             android:name=".SiswaFormulirDoneFragment"
             android:exported="false" />
         <activity

@@ -35,8 +35,6 @@ public class SiswaBerhasilMendaftarFragment extends Fragment {
             }
         });
 
-
-
         return view;
     }
 }
